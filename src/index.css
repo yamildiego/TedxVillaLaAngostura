@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Inner", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.formInputError {
+  border: 1px solid #f32e31!important;
+}

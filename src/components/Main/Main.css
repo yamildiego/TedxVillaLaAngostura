@@ -1,0 +1,19 @@
+.MainBox {
+    padding-top: 100px;
+}
+
+.Main {
+    background: #111;
+    height: 500px;
+}
+
+.Main hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 0;
+    border-top: 5px solid rgb(33, 37, 41);
+}
+
+.MainTitle {
+    color: white;
+}

@@ -1,0 +1,18 @@
+.EventInformation {
+    padding: 28px;
+    background: white;
+}
+
+.EventInformationWhen {
+    font-size: 1rem;
+}
+
+.EventInformationWhen span {
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-style: italic;
+    font-size: .9rem;
+}
+
+.EventInformationWhere {
+    font-size: 1.5rem;
+}
