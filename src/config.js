@@ -6,8 +6,9 @@ const Constants = {
     // numberW: "543442603234",
     // emailWebsite: "agostinidaniel@hotmail.com",
     // location: "Concepción del Uruguay, Entre ríos, Argentina",
-    // fb: "Verdeagostini-317168532314253",
-    // instagram: "verdeagostini",
+    fb: "TEDxVillaLaAngostura",
+    twitter: "TEDxAngostura",
+    instagram: "tedxvillalaangostura",
 }
 
 export default Constants;

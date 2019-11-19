@@ -20,7 +20,7 @@ const store = createStore(
 
 ReactDOM.render(
     <Provider store={store}>
-        <Router basename="/">
+        <Router basename="/ted/">
             <App />
         </Router>
     </Provider>,

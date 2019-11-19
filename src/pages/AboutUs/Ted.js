@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import Page from './../Page';
-import './AboutUs.css';
+import './Ted.css';
 
 class Ted extends Component {
-    state = {}
     render() {
         return (
-            <Page>
-                <div className="container AboutUs">
-                    <h1>¿Qué es TED?</h1>
+            <Page title="¿Qué es TED?">
+                <div className="Ted">
                     <p>
                         TED es una organización sin fines de lucro cuya misión es difundir ideas que valen la pena. TED comenzó como una conferencia de cuatro días en California en 1984 y ha crecido para apoyar a aquellas ideas que intentan cambiar el mundo por medio de distintas iniciativas.
                     </p>
@@ -25,7 +23,6 @@ class Ted extends Component {
                     <p>
                         El Premio TED, otorga anualmente un millón de dólares a individuos excepcionales con un deseo para cambiar el mundo. El programa de TED Fellows ayuda a innovadores que intentan cambiar el mundo a ser parte de la comunidad de TED y así amplificar el impacto de sus proyectos e iniciativas. TED-Ed crea videos cortos para educadores con la participación de maestros y expertos en animación, para el uso en las aulas.
                     </p>
-                    <Link to="/que-es-tedx">Ir a ¿Qué es TEDx?</Link>
                 </div>
             </Page>
         );

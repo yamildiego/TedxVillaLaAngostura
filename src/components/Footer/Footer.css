@@ -1,0 +1,16 @@
+.Footer {
+    border-top: 2px solid #ff2b06;
+}
+
+.FooterBox {
+    background: white;
+}
+
+.FooterCopyright {
+    padding: 5px 0;
+    font-size: 10px;
+    letter-spacing: 1px;
+    width: 100%;
+    background: #444;
+    color: white;
+}

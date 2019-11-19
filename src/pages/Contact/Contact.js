@@ -6,11 +6,8 @@ class Contact extends Component {
     state = {}
     render() {
         return (
-            <Page>
-                <div className="container" style={{ paddingTop: '100px' }}>
-                    <h1>Contacto</h1>
-                    <ContactForm />
-                </div>
+            <Page title="Contacto">
+                <ContactForm />
             </Page>
         );
     }

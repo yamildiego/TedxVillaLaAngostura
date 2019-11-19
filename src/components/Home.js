@@ -8,12 +8,38 @@ import { connect } from 'react-redux';
 // import ViewProduct from './ViewProduct';
 import Page from './../pages/Page';
 import Main from './Main/Main';
+import { Zoom } from 'react-slideshow-image';
+import Image1 from './../assets/images/1.png';
+import Image2 from './../assets/images/2.jpg';
+import Image3 from './../assets/images/3.jpg';
+
+const images = [
+    Image1,
+    Image2,
+    Image3
+];
+
+const zoomOutProperties = {
+    duration: 5000,
+    transitionDuration: 500,
+    infinite: true,
+    indicators: true,
+    scale: 0.4,
+    arrows: true
+}
 
 class Home extends Component {
     render() {
         return (
             <Page>
                 <Main />
+                <div className="slide-container">
+                    <Zoom {...zoomOutProperties}>
+                        {
+                            images.map((each, index) => <img key={index} style={{ width: "100%" }} src={each} />)
+                        }
+                    </Zoom>
+                </div>
                 <div>cascada</div>
                 <div>dasdms dad asd
                     sdasdas

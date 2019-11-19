@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from './../components/Header/Header';
 import AlertCookies from './Cookies/AlertCookies/AlertCookies';
-// import Footer from './../Footer';
+import Footer from './../components/Footer/Footer';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faWhatsapp, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import {
@@ -27,8 +27,15 @@ class Page extends Component {
             <React.Fragment>
                 <Header />
                 <AlertCookies />
-                {this.props.children}
-                {/* <Footer /> */}
+                <div className={this.props.container === false ? "" : "container"} style={{ paddingTop: '100px', paddingBottom: '15px', minHeight: '532px' }}>
+                    {this.props.title &&
+                        <h1>
+                            {this.props.title}
+                        </h1>
+                    }
+                    {this.props.children}
+                </div>
+                <Footer />
             </React.Fragment>
         );
     }

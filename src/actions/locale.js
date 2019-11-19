@@ -1,11 +1,16 @@
-import { LOCALE_SET, IS_LOADING, SET_MESSAGE, SHOW_ERRORS, UPDATE_FORM } from "../reducers/types";
+import { MODAL_SPEAKER_SET, SPEAKER_SET, IS_LOADING, SET_MESSAGE, SHOW_ERRORS, UPDATE_FORM } from "../reducers/types";
 import Constants from './../config';
 import queryString from 'querystring';
 import isset from './../components/utilities/isset';
 
-export const localeSet = lang => ({
-    type: LOCALE_SET,
-    lang
+export const speakerSet = speakerSelected => ({
+    type: SPEAKER_SET,
+    speakerSelected
+});
+
+export const modalSpeakerSet = modalSpeaker => ({
+    type: MODAL_SPEAKER_SET,
+    modalSpeaker
 });
 
 export const isLoading = value => ({

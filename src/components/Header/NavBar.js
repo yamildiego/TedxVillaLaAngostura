@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import DrawerToggleButton from './DrawerToggleButton';
 import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { FormattedMessage } from 'react-intl';
-import Logo from './../../assets/images/logo.jpg';
+import LogoHtml from './../LogoHtml/LogoHtml';
 import { connect } from 'react-redux';
 import './styles/NavBar.css';
 
@@ -31,39 +31,62 @@ class NavBar extends React.Component {
                                 </div>
                                 <div className="col-lg-3 col-4 text-center">
                                     <Navbar.Brand className="LogoMenu" href="/">
-                                        <img src={Logo} alt="Verde Agostini" />
+                                        <LogoHtml size="2rem" color="black" />
                                     </Navbar.Brand>
                                 </div>
                                 <div className="col-9 d-none d-lg-block d-xl-block">
                                     <Nav className="mr-auto Menu">
                                         <Link to={'/'} className="nav-link">
-                                            <FormattedMessage locale={this.props.lang} id="nav.home" />
+                                            <FormattedMessage locale={this.props.lang} id="nav.inicio" />
                                         </Link>
-                                        <Link to={'/'} className="nav-link">
-                                            <FormattedMessage locale={this.props.lang} id="nav.home" />
+                                        <Link to={'/oradores'} className="nav-link">
+                                            <FormattedMessage locale={this.props.lang} id="nav.oradores" />
                                         </Link>
-                                        <Link to={'/'} className="nav-link">
-                                            <FormattedMessage locale={this.props.lang} id="nav.products" />
+                                        <FormattedMessage locale={this.props.lang} id="nav.socios">
+                                            {
+                                                text =>
+                                                    <NavDropdown title={text} id="basic-nav-dropdown">
+                                                        <Link to={'/sponsors'} className="dropdown-item">
+                                                            <span>
+                                                                <FormattedMessage locale={this.props.lang} id="nav.socios.sponsors" />
+                                                            </span>
+                                                        </Link>
+                                                        <Link to={'/colaboradores'} className="dropdown-item">
+                                                            <span>
+                                                                <FormattedMessage locale={this.props.lang} id="nav.socios.colaboradores" />
+                                                            </span>
+                                                        </Link>
+                                                    </NavDropdown>
+                                            }
+                                        </FormattedMessage>
+                                        <Link to={'/organizacion'} className="nav-link">
+                                            <FormattedMessage locale={this.props.lang} id="nav.organizacion" />
                                         </Link>
-                                        <NavDropdown title="Acerca de" id="basic-nav-dropdown">
-                                            <Link to={'/que-es-ted'} className="dropdown-item">
-                                                <span>
-                                                    <FormattedMessage locale={this.props.lang} id="nav.aboutus.ted" />
-                                                </span>
-                                            </Link>
-                                            <Link to={'/que-es-tedx'} className="dropdown-item">
-                                                <span>
-                                                    <FormattedMessage locale={this.props.lang} id="nav.aboutus.tedx" />
-                                                </span>
-                                            </Link>
-                                            <Link to={'/nosotros'} className="dropdown-item">
-                                                <span>
-                                                    <FormattedMessage locale={this.props.lang} id="nav.aboutus.aboutus" />
-                                                </span>
-                                            </Link>
-                                        </NavDropdown>
+                                        <Link to={'/prensa'} className="nav-link">
+                                            <FormattedMessage locale={this.props.lang} id="nav.prensa" />
+                                        </Link>
+                                        <Link to={'/fotos-y-videos'} className="nav-link">
+                                            <FormattedMessage locale={this.props.lang} id="nav.fotos.y.videos" />
+                                        </Link>
+                                        <FormattedMessage locale={this.props.lang} id="nav.acerca.de">
+                                            {
+                                                text =>
+                                                    <NavDropdown title={text} id="basic-nav-dropdown">
+                                                        <Link to={'/que-es-ted'} className="dropdown-item">
+                                                            <span>
+                                                                <FormattedMessage locale={this.props.lang} id="nav.ted" />
+                                                            </span>
+                                                        </Link>
+                                                        <Link to={'/que-es-tedx'} className="dropdown-item">
+                                                            <span>
+                                                                <FormattedMessage locale={this.props.lang} id="nav.tedx" />
+                                                            </span>
+                                                        </Link>
+                                                    </NavDropdown>
+                                            }
+                                        </FormattedMessage>
                                         <Link to={'/contacto'} className="nav-link">
-                                            <FormattedMessage locale={this.props.lang} id="nav.contact" />
+                                            <FormattedMessage locale={this.props.lang} id="nav.contacto" />
                                         </Link>
                                     </Nav>
                                 </div>

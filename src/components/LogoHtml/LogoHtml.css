@@ -1,7 +1,5 @@
 .LogoHtml {
     padding: 10px;
-    font-size: 28px;
-    font-size: 3.75rem;
     line-height: 1.25;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -18,14 +16,12 @@
 }
 
 .LogoHtmlCity {
-    color: white;
-    font-size: 2.5rem;
+    font-size: 66%;
     line-height: 1.25;
     white-space: nowrap;
 }
 
 .LogoHtmlInfo {
-    color: white;
     font-size: 31%;
     font-weight: 700;
     margin-top: -.4ex;
