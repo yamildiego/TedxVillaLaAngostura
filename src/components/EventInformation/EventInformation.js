@@ -4,11 +4,11 @@ import './EventInformation.css';
 const EventInformation = () => {
     return (
         <div className="EventInformation">
-            <div className="EventInformationWhen">
-                <span>El evento sera el</span> 15 de mayo - 18:00 hs
+            <div className="EventInformationWhere">
+                Centro de Convenciones "Arrayanes"
             </div>
             <div className="EventInformationWhere">
-                Lugar del encuentro
+                25 de noviembre, de 17.00 - 22.00 hs
             </div>
         </div>
     );

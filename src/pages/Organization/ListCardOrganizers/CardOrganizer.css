@@ -1,3 +1,4 @@
-.CardOrganizer {
-    background: blue;
+.CardOrganizer .card {
+    max-width: 940px;
+    margin-bottom: 1rem!important;
 }

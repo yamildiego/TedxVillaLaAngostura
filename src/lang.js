@@ -8,9 +8,11 @@ export default {
     "nav.socios.colaboradores": "colaboradores",
     "nav.organizacion": "Organización",
     "nav.prensa": "Prensa",
-    "nav.fotos.y.videos": "Fotos y videos",
+    "nav.fotos.y.videos": "Galeria",
     "nav.acerca.de": "Acerca de",
     "nav.contacto": "Contacto",
+    "nav.contacto.como.llegar": "Cómo llegar",
+    "nav.contacto.contactanos": "Contactanos",
     "nav.ted": "¿Qué es TED?",
     "nav.tedx": "¿Qué es TEDx?",
 

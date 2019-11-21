@@ -31,10 +31,10 @@ class NavBar extends React.Component {
                                 </div>
                                 <div className="col-lg-3 col-4 text-center">
                                     <Navbar.Brand className="LogoMenu" href="/">
-                                        <LogoHtml size="2rem" color="black" />
+                                        <LogoHtml size="2.5rem" color="black" />
                                     </Navbar.Brand>
                                 </div>
-                                <div className="col-9 d-none d-lg-block d-xl-block">
+                                <div className="col-9 d-none d-lg-block d-xl-block pl-5">
                                     <Nav className="mr-auto Menu">
                                         <Link to={'/'} className="nav-link">
                                             <FormattedMessage locale={this.props.lang} id="nav.inicio" />
@@ -85,9 +85,23 @@ class NavBar extends React.Component {
                                                     </NavDropdown>
                                             }
                                         </FormattedMessage>
-                                        <Link to={'/contacto'} className="nav-link">
-                                            <FormattedMessage locale={this.props.lang} id="nav.contacto" />
-                                        </Link>
+                                        <FormattedMessage locale={this.props.lang} id="nav.contacto">
+                                            {
+                                                text =>
+                                                    <NavDropdown title={text} id="basic-nav-dropdown">
+                                                        <Link to={'/como-llegar'} className="dropdown-item">
+                                                            <span>
+                                                                <FormattedMessage locale={this.props.lang} id="nav.contacto.como.llegar" />
+                                                            </span>
+                                                        </Link>
+                                                        <Link to={'/contacto'} className="dropdown-item">
+                                                            <span>
+                                                                <FormattedMessage locale={this.props.lang} id="nav.contacto.contactanos" />
+                                                            </span>
+                                                        </Link>
+                                                    </NavDropdown>
+                                            }
+                                        </FormattedMessage>
                                     </Nav>
                                 </div>
                             </div>

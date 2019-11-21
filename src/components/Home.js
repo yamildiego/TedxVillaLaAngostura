@@ -9,15 +9,6 @@ import { connect } from 'react-redux';
 import Page from './../pages/Page';
 import Main from './Main/Main';
 import { Zoom } from 'react-slideshow-image';
-import Image1 from './../assets/images/1.png';
-import Image2 from './../assets/images/2.jpg';
-import Image3 from './../assets/images/3.jpg';
-
-const images = [
-    Image1,
-    Image2,
-    Image3
-];
 
 const zoomOutProperties = {
     duration: 5000,
@@ -31,37 +22,26 @@ const zoomOutProperties = {
 class Home extends Component {
     render() {
         return (
-            <Page>
-                <Main />
+            <Page container={false}>
                 <div className="slide-container">
                     <Zoom {...zoomOutProperties}>
                         {
-                            images.map((each, index) => <img key={index} style={{ width: "100%" }} src={each} />)
+                            this.props.images.map((item) => <img key={item.id} style={{ width: "100%", height: "30vw", objectFit: "cover" }} src={item.image} alt="" />)
                         }
                     </Zoom>
                 </div>
-                <div>cascada</div>
-                <div>dasdms dad asd
-                    sdasdas
-                    <p>dasdas</p>
-                    <p>dasdas</p>
-                    <p>dasdas</p>
-                    <p>dasdas</p>
-                    <p>dasdas</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt distinctio nihil sunt dolorum tempore. Laborum fugit ex debitis tempore. Fuga deleniti illum harum odit voluptates quod dolorem temporibus necessitatibus saepe!</p>
+                <Main />
+                <div className="container mt-2">
+                    <h2>¿QUÉ ES TEDxVILLALAANGOSTURA?</h2>
+                    <p>
+                        La edición 2019 constituye la primera vez en la cual se realiza un evento TEDx en VillaLaAngostura, y la segunda en la provincia del Neuquén.
+                   </p>
+                    <p>
+                        Nuestro evento se denomina <span className="font-weight-bolder">TEDxVillaLaAngostura</span>, en el cual x significa <span className="font-italic">“evento TED organizado en forma independiente”</span>. Se trata de un evento sin fines de lucro dedicado a difundir ideas transformadoras e inspirar al público asistente, a través de charlas que abordan una diversidad de temáticas. En TEDxVillaLaAngostura, charlas TED y TEDx pregrabadas y oradores en vivo se combinarán para promover discusiones profundas y alentar vínculos entre el auditorio.
+                   </p>
+                    <p>
+                        El tema de este año es <span className="font-weight-bolder font-italic">“Pensando el futuro”</span>, y ese es nuestro compromiso: motivar a quienes asistan al evento e inspirarlos para transformar positivamente la realidad.
+                    </p>
                 </div>
             </Page>
         );
@@ -70,6 +50,7 @@ class Home extends Component {
 
 function mapStateToProps(state, props) {
     return {
+        images: state.info[state.locale.lang].imageHome
     }
 }
 

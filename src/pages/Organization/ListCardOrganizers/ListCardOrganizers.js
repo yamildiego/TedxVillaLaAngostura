@@ -1,17 +1,28 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import './ListCardOrganizers.css';
 import CardOrganizer from './CardOrganizer';
 
 class ListCardOrganizers extends Component {
-    state = {}
     render() {
         return (
             <div className="ListCardOrganizers">
-                Cascada
-                <CardOrganizer />
+                {
+                    this.props.members.map((item) => {
+                        return (
+                            <CardOrganizer key={item.id} {...item} />
+                        )
+                    })
+                }
             </div>
         );
     }
 }
 
-export default ListCardOrganizers;
+function mapStateToProps(state, props) {
+    return {
+        members: state.info[state.locale.lang].members
+    }
+}
+
+export default connect(mapStateToProps)(ListCardOrganizers);

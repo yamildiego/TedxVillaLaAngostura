@@ -82,9 +82,23 @@ class SideDrawer extends React.PureComponent {
                         </FormattedMessage>
                     </li>
                     <li>
-                        <Link to={'/contacto'}>
-                            <FormattedMessage locale={this.props.lang} id="nav.contacto" />
-                        </Link>
+                        <FormattedMessage locale={this.props.lang} id="nav.contacto">
+                            {
+                                text =>
+                                    <NavDropdown title={text} id="basic-nav-dropdown" style={{ color: 'red' }}>
+                                        <Link to={'/como-llegar'} className="dropdown-item">
+                                            <span>
+                                                <FormattedMessage locale={this.props.lang} id="nav.contacto.como.llegar" />
+                                            </span>
+                                        </Link>
+                                        <Link to={'/contacto'} className="dropdown-item">
+                                            <span>
+                                                <FormattedMessage locale={this.props.lang} id="nav.contacto.contactanos" />
+                                            </span>
+                                        </Link>
+                                    </NavDropdown>
+                            }
+                        </FormattedMessage>
                     </li>
                 </ul>
             </nav>

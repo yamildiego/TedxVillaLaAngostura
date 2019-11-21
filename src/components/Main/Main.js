@@ -1,23 +1,20 @@
 import React, { Component } from 'react';
-import LogoHtml from './../LogoHtml/LogoHtml';
+// import LogoHtml from './../LogoHtml/LogoHtml';
 import EventInformation from './../EventInformation/EventInformation';
 import './Main.css';
 
 class Main extends Component {
-    state = {}
     render() {
         return (
-            <div className="MainBox">
-                <div className="Main">
-                    <div className="container">
-                        <LogoHtml />
-                        <hr />
-                        <h1 className="MainTitle">
-                            Tema: "Tema del tedx da a sada da"
+            <div className="Main" style={{ marginTop: "10px" }}>
+                <div className="container" style={{ paddingTop: "10px" }}>
+                    {/* <LogoHtml /> */}
+                    <hr />
+                    <h1 className="MainTitle">
+                        Tema: "Pensando el futuro"
                         </h1>
-                        <hr />
-                        <EventInformation />
-                    </div>
+                    <hr />
+                    <EventInformation />
                 </div>
             </div>
         );

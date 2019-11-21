@@ -14,7 +14,7 @@ class Sponsors extends Component {
                             {
                                 this.props.sponsors.map((item) => {
                                     return (
-                                        <Col md={4} className="text-center" style={{ marginBottom: "12px" }}>
+                                        <Col key={item.id} md={4} className="text-center" style={{ marginBottom: "12px" }}>
                                             <Image src={item.image} fluid style={{ maxHeight: "150px", maxWidth: "220px" }} />
                                         </Col>
                                     )
