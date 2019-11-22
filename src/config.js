@@ -1,9 +1,7 @@
 const Constants = {
     urlVisible: "TedxVillaLaAngostura.com.ar",
-    // urlServerPHP: "https://www.verdeagostini.com.ar/Server/Home",
-    // emailAdministrator: "yamildiego@gmail.com",
+    urlServerPHP: "https://www.tedxvillalaangostura.com.ar/",
     number: "+54 9 294 4319308",
-    // numberW: "543442603234",
     emailWebsite: "info@tedxvillalaangostura.com.ar",
     location: "Centro de Congresos y Convenciones \"Arrayanes\"",
     location1: "Calafate 15, Villa La Angostura",

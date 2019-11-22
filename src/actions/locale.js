@@ -38,7 +38,7 @@ export const sendFormAsync = form => {
             dispatch(showErrors(true));
         } else {
             dispatch(isLoading(true));
-            fetch(Constants.urlServerPHP + '/contact', {
+            fetch(Constants.urlServerPHP + 'contact.php', {
                 method: 'POST',
                 body: queryString.stringify(form),
                 headers: {
