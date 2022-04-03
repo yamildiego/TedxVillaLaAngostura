@@ -60,7 +60,7 @@ class Page extends Component {
         <AlertCookies />
         <div
           className={this.props.container === false ? "" : "container"}
-          style={{ paddingTop: "130px", paddingBottom: "15px", minHeight: "532px" }}
+          style={{ paddingTop: "130px", paddingBottom: "15px", minHeight: "86vh" }}
         >
           {this.props.title && <h1>{this.props.title}</h1>}
           {this.props.children}

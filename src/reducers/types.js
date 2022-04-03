@@ -8,4 +8,3 @@ export const UPDATE_FORM = "UPDATE_FORM";
 
 export const MODAL_SPEAKER_SET = "MODAL_SPEAKER_SET";
 export const SPEAKER_SET = "SPEAKER_SET";
-

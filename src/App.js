@@ -1,24 +1,24 @@
-import React, { Component } from 'react';
-import { Route, Switch, withRouter } from 'react-router-dom';
-import { connect } from 'react-redux';
-import { IntlProvider, addLocaleData } from 'react-intl';
-import HandleError from './components/HandleError';
-import Home from './components/Home';
-import Ted from './pages/AboutUs/Ted';
-import Tedx from './pages/AboutUs/Tedx';
-import Speakers from './pages/Speakers/Speakers';
-import Sponsors from './pages/Sponsors/Sponsors';
-import Collaborators from './pages/Collaborators/Collaborators';
-import Organization from './pages/Organization/Organization';
-import Press from './pages/Press/Press';
-import PhotosAndVideos from './pages/PhotosAndVideos/PhotosAndVideos';
-import HowToGet from './pages/Contact/HowToGet';
-import Contact from './pages/Contact/Contact';
-import CookiesPolicy from './pages/Cookies/CookiesPolicy/CookiesPolicy';
-import messages from './lang';
-import es from 'react-intl/locale-data/es';
+import React, { Component } from "react";
+import { Route, Switch, withRouter } from "react-router-dom";
+import { connect } from "react-redux";
+import { IntlProvider, addLocaleData } from "react-intl";
+import HandleError from "./components/HandleError";
+import Home from "./components/Home";
+import Ted from "./pages/AboutUs/Ted";
+import Tedx from "./pages/AboutUs/Tedx";
+import Speakers from "./pages/Speakers/Speakers";
+import Sponsors from "./pages/Sponsors/Sponsors";
+import Collaborators from "./pages/Collaborators/Collaborators";
+import Organization from "./pages/Organization/Organization";
+import Press from "./pages/Press/Press";
+import PhotosAndVideos from "./pages/PhotosAndVideos/PhotosAndVideos";
+import HowToGet from "./pages/Contact/HowToGet";
+import Contact from "./pages/Contact/Contact";
+import CookiesPolicy from "./pages/Cookies/CookiesPolicy/CookiesPolicy";
+import messages from "./lang";
+import es from "react-intl/locale-data/es";
 
-addLocaleData([...es])
+addLocaleData([...es]);
 
 class App extends Component {
   render() {
@@ -46,7 +46,7 @@ class App extends Component {
 }
 
 function mapStateToProps(state, props) {
-  return {}
+  return {};
 }
 
 export default withRouter(connect(mapStateToProps)(App));

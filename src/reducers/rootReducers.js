@@ -5,8 +5,8 @@ import info from "./info";
 import general from "./general";
 
 export default combineReducers({
-    contact,
-    locale,
-    info,
-    general
+  contact,
+  locale,
+  info,
+  general,
 });
