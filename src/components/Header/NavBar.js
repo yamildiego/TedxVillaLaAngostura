@@ -26,10 +26,10 @@ class NavBar extends React.Component {
                     <div className="container-fluid">
                         <div className="NavBarMenu w-100">
                             <div className="row">
-                                <div className="NavBarBtnMenu col-lg-1 col-4 d-lg-none d-xl-none">
+                                <div className="NavBarBtnMenu col-lg-1 col-2 d-lg-none d-xl-none">
                                     <DrawerToggleButton handleClickOpenMenu={this.props.handleClickOpenMenu} />
                                 </div>
-                                <div className="col-lg-3 col-4 text-center">
+                                <div className="col-lg-3 col-10 text-center">
                                     <Navbar.Brand className="LogoMenu" href="/">
                                         <LogoHtml size="2.5rem" color="black" />
                                     </Navbar.Brand>
