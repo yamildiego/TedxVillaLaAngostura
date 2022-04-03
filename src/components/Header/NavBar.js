@@ -29,7 +29,7 @@ class NavBar extends React.Component {
                                 <div className="NavBarBtnMenu col-lg-1 col-2 d-lg-none d-xl-none">
                                     <DrawerToggleButton handleClickOpenMenu={this.props.handleClickOpenMenu} />
                                 </div>
-                                <div className="col-lg-3 col-10 text-center">
+                                <div className="col-lg-3 col-8 text-center">
                                     <Navbar.Brand className="LogoMenu" href="/">
                                         <LogoHtml size="2.5rem" color="black" />
                                     </Navbar.Brand>
