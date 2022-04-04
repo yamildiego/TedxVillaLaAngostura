@@ -14,7 +14,6 @@ import Press from "./pages/Press/Press";
 import PhotosAndVideos from "./pages/PhotosAndVideos/PhotosAndVideos";
 import HowToGet from "./pages/Contact/HowToGet";
 import Contact from "./pages/Contact/Contact";
-import CookiesPolicy from "./pages/Cookies/CookiesPolicy/CookiesPolicy";
 import messages from "./lang";
 import es from "react-intl/locale-data/es";
 
@@ -37,7 +36,6 @@ class App extends Component {
             <Route path="/fotos-y-videos" component={PhotosAndVideos} />
             <Route path="/como-llegar" component={HowToGet} />
             <Route path="/contacto" component={Contact} />
-            <Route path="/politica-de-cookies" component={CookiesPolicy} />
           </Switch>
         </IntlProvider>
       </HandleError>

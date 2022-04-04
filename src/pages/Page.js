@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Header from "./../components/Header/Header";
-import AlertCookies from "./Cookies/AlertCookies/AlertCookies";
 import Footer from "./../components/Footer/Footer";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab, faWhatsapp, faFacebookF, faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -57,7 +56,6 @@ class Page extends Component {
     return (
       <React.Fragment>
         <Header />
-        <AlertCookies />
         <div
           className={this.props.container === false ? "" : "container"}
           style={{ paddingTop: "130px", paddingBottom: "15px", minHeight: "86vh" }}
