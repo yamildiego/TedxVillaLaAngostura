@@ -5,7 +5,7 @@ import "./Press.css";
 class Press extends Component {
   render() {
     return (
-      <Page title="Prensa">
+      <Page title="News">
         <div className="Press">
           <p>
             <a

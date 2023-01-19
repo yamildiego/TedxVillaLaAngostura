@@ -84,33 +84,33 @@ const data = {
       {
         id: "1",
         name: "SANDRA PITTA ALVAREZ",
-        title: "Educar en el pensamiento científico es educar ciudadanos responsables",
+        title: "Educating in scientific thinking is educating responsible citizens",
         description:
-          "Sandra nació en Montevideo, Uruguay, y a los 10 años se fue a vivir a Nueva Jersey, Estados Unidos. Pisó por primera vez suelo argentino casi al cumplir 18 años. Ingresó a la Facultad de Farmacia y Bioquímica de la UBA, donde cursó la Carrera de Farmacia. A pesar de sus muchas oportunidades profesionales en Estados Unidos, decidió quedarse en Argentina. Luego de cursar unos años la carrera de Historia, también en la UBA, retomó el sendero de la Bioquímica, doctorándose en Biotecnología Vegetal. Ingresó como Investigadora CONICET en 2002, trabajando en cultivo de tejido vegetal e ingeniería genética para la obtención de productos de interés industrial y en el mejoramiento de la arquitectura de plantas ornamentales por técnicas de biología molecular; entre otros temas. Su pasión por el cine, la literatura y la historia fue compartida siempre con su otra pasión, las Ciencias Exactas. Su interés por producir cambios en CONICET la llevaron a incursionar en la actividad gremial y el asesoramiento gubernamental.",
+          "Sandra was born in Montevideo, Uruguay, and at the age of 10 she moved to New Jersey, United States. She set foot on Argentine soil for the first time almost when she turned 18. She entered the Faculty of Pharmacy and Biochemistry of the UBA, where she studied Pharmacy. Despite her many professional opportunities in the United States, she decided to stay in Argentina. After studying History for a few years, also at the UBA, she returned to the path of Biochemistry, obtaining a doctorate in Plant Biotechnology. She became a CONICET Researcher in 2002, working on plant tissue culture and genetic engineering to obtain products of industrial interest and on improving the architecture of ornamental plants using molecular biology techniques; among other topics. Her passion for cinema, literature and history was always shared with her other passion, Exact Sciences. Her interest in producing changes in CONICET led her to venture into union activity and government advice.",
         image: require("./assets/images/oradores/Sandra.jpg"),
       },
       {
         id: "2",
         name: "KARINA CUEVAS",
-        title: "Pasión por ser bombero",
+        title: "Passion for being a firefighter",
         description:
-          "Karina nació en Buenos Aires, pero desde muy pequeña su papá los traía cada año de vacaciones, y así se enamoró de Villa La Angostura, localidad en la que vive hace unos 15 años. Al terminar el secundario siguió estudios terciarios graduándose como preparadora física y actualmente estudia la carrera técnica universitaria de “escena del crimen”. Desde niña sonó con ser bombera, y vaya que lo logró: en 2005 ingresó a los Bomberos Voluntarios de Villa La Angostura, y hace 5 años se convirtió en Jefa del Cuartel, con la jerarquía de Oficial Principal. En 2018 se la distinguió como “personalidad destacada” por su labor como mujer en tan importante rol social.",
+          'Karina was born in Buenos Aires, but from a very young age her father brought them every year on vacation, and that is how she fell in love with Villa La Angostura, a town where she has lived for about 15 years. After finishing high school, she continued her tertiary studies, graduating as a physical trainer and is currently studying a “crime scene” university technical career. Since she was a child, she dreamed of being a firefighter, and boy did she achieve it: in 2005 she joined the Villa La Angostura Volunteer Firefighters, and 5 years ago she became Head of the Barracks, with the hierarchy of Principal Officer. In 2018 she was distinguished as an "outstanding personality" for her work as a woman in such an important social role.',
         image: require("./assets/images/oradores/Karina.jpg"),
       },
       {
         id: "3",
         name: "CORINA GÓMEZ",
-        title: "Somos uno con la Naturaleza",
+        title: "We are one with nature",
         description:
-          "Corina nació en Buenos Aires y eligió vivir en la Patagonia (más precisamente en Bariloche) hace varios años. Desarrolló su carrera como docente y actualmente es Guía de Turismo en áreas naturales. Ama la comunicación en todos sus sentidos, y en sus distintas acciones tanto personales como profesionales, demuestra pasión y amor por la naturaleza. Su compromiso está enfocado a promover una unión de nuestras mentes y emociones con la naturaleza, de modo que este vínculo forme parte imprescindible de nuestra vida cotidiana.",
+          "Corina was born in Buenos Aires and chose to live in Patagonia (more precisely in Bariloche) several years ago. She developed her career as a teacher and is currently a Tourism Guide in natural areas. She loves communication in all her senses, and in her various personal and professional actions, she demonstrates passion and love for nature. Her commitment is focused on promoting a union of our minds and emotions with nature, so that this link is an essential part of our daily lives.",
         image: require("./assets/images/oradores/Corina.jpg"),
       },
       {
         id: "4",
         name: "JEAN PIERRE RAEMDONCK",
-        title: "Piensa en grande, y empieza en pequeño",
+        title: "Think big, and start small",
         description:
-          "Jean Pierre nació en Bélgica, dos años antes de la Segunda Guerra Mundial. Desde su infancia ha desarrollado un gusto particular para la mecánica, junto con una pasión por las competencias de motos todo terreno. A los 22 años, junto a un amigo, llegó en moto desde Estados Unidos a la Argentina, y se enamoró de nuestro país. Reside en Villa la Angostura desde 1961, y ha desarrollado múltiples actividades, destacándose la organización de las primeras competencias de motocross y enduro en nuestro país. También ha incursionado en diferentes actividades comerciales (madereras, gastronomía, transporte lacustre, etc.) y se ha comprometido con distintas entidades intermedias locales (asociaciones y clubes, entre muchos otros). Ideó y desarrolló el centro de esquí en el Cerro Bayo. En 1977 se casó en Bélgica y regresó con su esposa Bernadette, quien supo adaptarse a un marido tan original en un lugar tan diferente y distante de Bélgica, formando una hermosa familia con tres hijos y tres nietos, todos ellos bien angosturenses.  Con un poco más de 81 años, Jean Pierre es una figura respetada y muy querida de nuestra localidad.",
+          "Jean Pierre was born in Belgium, two years before the Second World War. Since childhood he has developed a particular taste for mechanics, along with a passion for off-road motorcycle racing. At the age of 22, together with a friend, he arrived on a motorcycle from the United States to Argentina, and fell in love with our country. He lives in Villa la Angostura since 1961, and has developed multiple activities, highlighting the organization of the first motocross and enduro competitions in our country. He has also ventured into different commercial activities (timber, gastronomy, lake transportation, etc.) and has committed himself to different local intermediary entities (associations and clubs, among many others). He devised and developed the ski center at Cerro Bayo. In 1977 he married in Belgium and returned to his wife Bernadette, who knew how to adapt to such an original husband in a place so different and distant from Belgium, forming a beautiful family with three children and three grandchildren, all of them very Angosturan. At just over 81 years old, Jean Pierre is a much-loved and respected figure in our town.",
         image: require("./assets/images/oradores/Jean-Pierre.jpg"),
       },
     ],
@@ -119,73 +119,73 @@ const data = {
         id: "1",
         name: "MARIO BRUN",
         description:
-          "Oriundo de la provincia de Buenos Aires, reside en Villa La Angostura hace unos 25 años. Ha sido docente, director e investigador educativo, evaluando como consultor programas y políticas educativas públicas en diversos países latinoamericanos y realizando consultorías para organismos internacionales. Se desempeña actualmente como Experto Líder para la Comisión Europea. Suele disertar en eventos internacionales en América Latina, Europa, China y Medio Oriente, entre otros lugares. Casado con Noemí hace casi 30 años, disfruta de la música clásica, la historia, el cine francés y ama a los animales. Le encanta viajar para conocer otras culturas, y habla varios idiomas. Es el coordinador general del evento TEDxVillaLaAngostura.",
+          "Originally from the province of Buenos Aires, he has lived in Villa La Angostura for about 25 years. He has been a teacher, director and educational researcher, evaluating as a consultant programs and public educational policies in various Latin American countries and consulting for international organizations. He currently serves as Lead Expert for the European Commission. He regularly speaks at international events in Latin America, Europe, China and the Middle East, among other places. Married to Noemi for almost 30 years, he enjoys classical music, history, French cinema and loves animals. He loves to travel to learn about other cultures, and he speaks multiple languages. He is the general coordinator of the TEDxVillaLaAngostura event.",
         image: require("./assets/images/equipo/Mario.jpg"),
       },
       {
         id: "2",
         name: "MARIANO PAGANO",
         description:
-          "Apasionado por la arquitectura y la docencia. Oriundo de la Provincia de Buenos Aires, hace 10 años eligió Villa la Angostura para vivir junto a su familia. Gran entusiasta por las matemáticas y la informática. Amante de la tranquilidad que ofrece la montaña. Actualmente trabaja como docente de matemática en escuelas públicas y privadas, y también en diseño y dirección de obras de arquitectura. Feliz y orgulloso de participar en TEDxVillaLaAngostura.",
+          "Passionate about architecture and teaching. Originally from the Province of Buenos Aires, 10 years ago he chose Villa la Angostura to live with his family. He is a great enthusiast for mathematics and computer science. Lover of the tranquility offered by the mountain. He currently works as a mathematics teacher in public and private schools, and also in design and direction of architectural works. Happy and proud to participate in TEDxVillaLaAngostura.",
         image: require("./assets/images/equipo/Mariano-P.png"),
       },
       {
         id: "3",
         name: "SONIA SIGLIANO",
         description:
-          "Traductora Literaria de Inglés, actualmente se desempeña como docente y auxiliar de Secretaría en escuelas de Nivel Medio. Nació en Capital Federal y vive en Villa La Angostura hace 23 años, es mamá de Catalina y Julián. Interesada en las charlas TEDx, decide participar y trabajar en equipo en la organización de TEDxVillaLaAngostura. Valora las cosas lindas de la vida, disfruta de la familia, los amigos, los viajes y los paisajes de la Patagonia.",
+          "Literary translator of English, currently works as a teacher and secretarial assistant in middle level schools. She was born in the Federal Capital and has lived in Villa La Angostura for 23 years, she is the mother of Catalina and Julián. She interested in TEDx talks, she decides to participate and work as a team in the organization of TEDxVillaLaAngostura. She values the beautiful things in life, she enjoys family, friends, travel and the landscapes of Patagonia.",
         image: require("./assets/images/equipo/Sonia.jpg"),
       },
       {
         id: "4",
         name: "ALEXANDRA EROPUNOVA",
         description:
-          "Oriunda de Kirguistán, vive en la Argentina hace 20 años. Es abogada, pero actualmente se dedica a la docencia. Se considera una persona proactiva orientada a percibir lo positivo de cualquier situación. Le interesa relacionarse con personas, compartir experiencias y aprender cosas nuevas. Su lema es: “No te detengas en lo conseguido”.",
+          'Originally from Kyrgyzstan, she has lived in Argentina for 20 years. She is a lawyer, but currently works as a teacher. She considers herself a proactive person oriented to perceive the positive of any situation. She is interested in interacting with people, sharing experiences and learning new things. Her motto is: "Don\'t stop at what you have achieved."',
         image: require("./assets/images/equipo/Ale.jpg"),
       },
       {
         id: "5",
         name: "NADIA RODRÍGUEZ",
         description:
-          "Nació en Villa la Angostura, y luego de vivir 12 años y estudiar en la ciudad de Buenos Aires, regresó a su pueblo hace un año y medio. Actualmente se desempeña como docente en nivel medio y superior y en una escuela especial como psicóloga del equipo técnico, y también en su consultorio particular. Es una persona muy inquieta y le gusta dedicarse a distintas actividades, por ejemplo, leer y recorrer los hermosos paisajes de la zona en la que reside. Trabaja con Mindfulness hace unos años e intenta experimentarlo en su propia vida.",
+          "He was born in Villa la Angostura, and after living 12 years and studying in the city of Buenos Aires, he returned to his town a year and a half ago. She currently works as a teacher at the middle and higher levels and in a special school as a psychologist for the technical team, and also in her private office. She is a very restless person and likes to dedicate herself to different activities, for example, reading and exploring the beautiful landscapes of the area where she lives. She has been working with Mindfulness for a few years and tries to experience it in her own life.",
         image: require("./assets/images/equipo/Nadia.jpg"),
       },
       {
         id: "6",
         name: "MARIANO HOFFER",
         description:
-          "Es licenciado en nutrición de la Universidad de Buenos Aires y se formó como entrenador personal. Nacido en Olavarría, provincia de Buenos Aires, vive en Villa la Angostura hace más de un año. Trabaja en su consultorio particular especializado en deporte y también en tareas administrativas en una escuela secundaria. Le gusta pasar tiempo en la naturaleza, salir a correr y disfrutar de la gastronomía local.",
+          "He has a degree in nutrition from the University of Buenos Aires and trained as a personal trainer. Born in Olavarría, province of Buenos Aires, he has lived in Villa la Angostura for more than a year. He works in his private practice specialized in sports and also in administrative tasks in a secondary school. He likes spending time in nature, going for a run and enjoying the local cuisine.",
         image: require("./assets/images/equipo/Mariano-H.jpg"),
       },
     ],
     collaborators: [
       {
         id: "1",
-        name: "Ariel Domínguez (locución)",
+        name: "Ariel Domínguez (Locution)",
       },
       {
         id: "2",
-        name: "Ismael Melo (fotografía)",
+        name: "Ismael Melo (Photography)",
       },
       {
         id: "3",
-        name: "Gonzalo Henderson e Ian Henderson (filmación)",
+        name: "Gonzalo Henderson e Ian Henderson (Filming)",
       },
       {
         id: "4",
-        name: "Yamil Diego (diseño web)",
+        name: "Yamil Diego (Web design)",
       },
       {
         id: "5",
-        name: "Karina Giammátolo (spot de apertura)",
+        name: "Karina Giammátolo (Opening spot)",
       },
       {
         id: "6",
-        name: "Diego Monti (equipamiento de audio)",
+        name: "Diego Monti (Audio)",
       },
       {
         id: "7",
-        name: "José Riffo (Centro de Convenciones)",
+        name: "José Riffo (Convention center)",
       },
     ],
   },

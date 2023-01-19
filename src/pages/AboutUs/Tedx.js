@@ -5,25 +5,23 @@ import "./Ted.css";
 class TedX extends Component {
   render() {
     return (
-      <Page title="¿Qué es TEDx?">
+      <Page title="What is TEDx?">
         <div className="Ted">
           <p>
-            En el espíritu de difundir ideas que valen la pena, TED ha creado un programa llamado{" "}
+            In the spirit of spreading worthwhile ideas, TED has created a program called{" "}
             <a href="https://www.ted.com/about/programs-initiatives/tedx-program" target="_black">
               TEDx
             </a>
-            , constituido por eventos locales, organizados de forma independiente que reúnen a una audiencia para compartir una experiencia
-            similar a TED.
+            , made up of local, independently organized events that bring an audience together to share a TED-like experience.
           </p>
           <p>
-            Nuestro evento se denomina TEDxVillaLaAngostura, en el cual x significa “evento TED organizado en forma independiente”. Se trata
-            de un evento sin fines de lucro dedicado a difundir ideas transformadoras e inspirar al público asistente, a través de charlas
-            que abordan una diversidad de temáticas. En nuestro evento TEDxVillaLaAngostura, charlas TED en pregrabadas y oradores en vivo
-            se combinarán para promover discusiones profundas y alentar vínculos entre el auditorio.
+            Our event is called TEDxVillaLaAngostura, where x means <span className="font-italic">“independently organized TED event”</span>
+            . It is a non-profit event dedicated to spreading transformative ideas and inspiring the attending public, through talks that
+            address a variety of topics. At our TEDxVillaLaAngostura event, pre-recorded TED Talks and live speakers will combine to promote
+            in-depth discussions and encourage bonding among the audience.
           </p>
           <p>
-            La edición 2019 constituye la primera vez en la cual se realiza un evento TEDx en VillaLaAngostura, y la segunda en la provincia
-            del Neuquén.
+            The 2019 edition is the first time that a TEDx event is held in VillaLaAngostura, and the second in the province of Neuquén.
           </p>
         </div>
       </Page>

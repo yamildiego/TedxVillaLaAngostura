@@ -8,7 +8,7 @@ class MyData extends Component {
   render() {
     return (
       <div className="MyData">
-        <h4>Datos de contacto</h4>
+        <h4>Contact information</h4>
         <div className="MyData">
           <div className="input-group mb-3">
             <div className="input-group-prepend" style={{ paddingRight: "5px" }}>

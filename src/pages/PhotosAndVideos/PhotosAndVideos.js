@@ -5,10 +5,10 @@ import Page from "../Page";
 class PhotosAndVideos extends Component {
   render() {
     return (
-      <Page title="Fotos y Videos">
+      <Page title="Photos and videos">
         <div className="PhotosAndVideos">
           <p className="text-center font-italic" style={{ color: "#777", cursor: "default" }}>
-            No disponible por el momento
+            Not available at the moment
           </p>
         </div>
       </Page>

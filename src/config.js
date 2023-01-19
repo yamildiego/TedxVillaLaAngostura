@@ -1,10 +1,10 @@
 const Constants = {
   urlVisible: "TedxVillaLaAngostura.com.ar",
   // urlServer: "http://localhost:5000/api/",
-  urlServer: "https://yamildiego.com/server_1/api/",
+  urlServer: "https://postman.yamildiego.com",
   number: "+54 9 294 4319308",
   emailWebsite: "info@tedxvillalaangostura.com.ar",
-  location: 'Centro de Congresos y Convenciones "Arrayanes"',
+  location: "Arrayanes Congress and Convention Center",
   location1: "Calafate 15, Villa La Angostura",
   location2: "Neuquen, Argentina",
   keyGoogleMap: "",

@@ -5,29 +5,28 @@ import "./Ted.css";
 class Ted extends Component {
   render() {
     return (
-      <Page title="¿Qué es TED?">
+      <Page title="What is TED?">
         <div className="Ted">
           <p>
-            TED es una organización sin fines de lucro dedicada a las <span className="font-italic">“ideas que vale la pena difundir”</span>
-            . Comenzó como una conferencia en California en 1984 y se expandido notablemente para apoyar a aquellas ideas que intentan
-            cambiar el mundo.
+            TED is a nonprofit organization dedicated to <span className="font-italic">“ideas worth spreading.”</span> It began as a
+            conference in California in 1984 and has greatly expanded to support those ideas that seek to change the world.
           </p>
           <p>
-            Las dos conferencias anuales de TED invitan a los pensadores y hacedores más importantes del mundo a dar la charla de su vida en
-            no más de 18 minutos. Muchas de estas charlas están disponibles gratuitamente en TED.com. La conferencia TED se lleva a cabo en
-            Vancouver, Canadá. En TED.com, las charlas de las conferencias son compartidas con el mundo gratuitamente en formato de videos.
-            TED ha lanzado The Audacious Project que invita a financiar distintas ideas con el potencial de generar cambios a gran escala.
+            TED's two annual conferences invite the world's leading thinkers and doers to give the talk of a lifetime in no more than 18
+            minutes. Many of these talks are freely available on TED.com. The TED conference takes place in Vancouver, Canada. At TED.com,
+            talks from conferences are shared with the world for free in video format. TED has launched The Audacious Project, which invites
+            funding for different ideas with the potential to generate large-scale change.
           </p>
           <p>
-            Pueden seguir a TED en Twitter en{" "}
+            You can follow TED on Twitter at{" "}
             <a href="https://twitter.com/TEDTalks" target="_black">
               twitter.com/TEDTalks
             </a>
-            , en Facebook en{" "}
+            , on Facebook at{" "}
             <a href="https://www.facebook.com/TED" target="_black">
               www.facebook.com/TED
             </a>{" "}
-            o en Instagram en{" "}
+            , or on Instagram at{" "}
             <a href="https://instagram.com/TED" target="_black">
               instagram.com/TED
             </a>

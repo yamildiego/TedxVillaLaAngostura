@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm/ContactForm";
 class Contact extends Component {
   render() {
     return (
-      <Page title="Contacto">
+      <Page title="Contact Us">
         <ContactForm />
       </Page>
     );

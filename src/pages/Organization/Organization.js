@@ -8,7 +8,7 @@ class Organization extends Component {
     return (
       <Page>
         <div className="container AboutUs">
-          <h1>Equipo organizador</h1>
+          <h1>Team organizer</h1>
           <ListCardOrganizers />
         </div>
       </Page>

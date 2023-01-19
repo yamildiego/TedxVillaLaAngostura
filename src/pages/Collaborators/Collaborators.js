@@ -6,7 +6,7 @@ import "./Collaborators.css";
 class Collaborators extends Component {
   render() {
     return (
-      <Page title="Colaboradores">
+      <Page title="Collaborators">
         <div className="Collaborators">
           {this.props.collaborators.map((item) => {
             return <p key={item.id}>{item.name}</p>;

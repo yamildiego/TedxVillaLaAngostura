@@ -7,7 +7,7 @@ import Map from "./../../assets/images/mapa.png";
 class HowToGet extends Component {
   render() {
     return (
-      <Page title="Cómo llegar">
+      <Page title="Location">
         <Row>
           <Col xs={12} md={6}>
             <Image src={Map} fluid rounded />

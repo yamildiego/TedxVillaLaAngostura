@@ -26,21 +26,20 @@ class Home extends Component {
         </div>
         <Main />
         <div className="container mt-2">
-          <h2 style={styles.title}>¿QUÉ ES TEDxVILLALAANGOSTURA?</h2>
+          <h2 style={styles.title}>WHAT IS TEDxVILLALAANGOSTURA?</h2>
           <p>
-            La edición 2019 constituye la primera vez en la cual se realiza un evento TEDx en VillaLaAngostura, y la segunda en la provincia
-            del Neuquén.
+            The 2019 edition is the first time that a TEDx event is held in VillaLaAngostura, and the second in the province of Neuquén.
           </p>
           <p>
-            Nuestro evento se denomina <span className="font-weight-bolder">TEDxVillaLaAngostura</span>, en el cual x significa{" "}
-            <span className="font-italic">“evento TED organizado en forma independiente”</span>. Se trata de un evento sin fines de lucro
-            dedicado a difundir ideas transformadoras e inspirar al público asistente, a través de charlas que abordan una diversidad de
-            temáticas. En TEDxVillaLaAngostura, charlas TED y TEDx pregrabadas y oradores en vivo se combinarán para promover discusiones
-            profundas y alentar vínculos entre el auditorio.
+            Our event is called <span className="font-weight-bolder">TEDxVillaLaAngostura</span>, where x means{" "}
+            <span className="font-italic">“independently organized TED event”</span>. It is a non-profit event dedicated to spreading
+            transformative ideas and inspiring the attending public, through talks that address a variety of topics. At
+            TEDxVillaLaAngostura, pre-recorded TED and TEDx talks and live speakers will combine to promote in-depth discussions and
+            encourage bonding among the audience.
           </p>
           <p>
-            El tema de este año es <span className="font-weight-bolder font-italic">“Pensando el futuro”</span>, y ese es nuestro
-            compromiso: motivar a quienes asistan al evento e inspirarlos para transformar positivamente la realidad.
+            This year's topic is <span className="font-weight-bolder font-italic">“Thinking about the future”</span>, and that is our
+            commitment: to motivate those who attend the event and inspire them to positively transform reality.
           </p>
         </div>
       </Page>
